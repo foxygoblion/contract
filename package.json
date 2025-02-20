@@ -4,14 +4,45 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "migrate": "truffle migrate",
+    "migrate:reset": "truffle migrate --reset",
+    "compile": "truffle compile",
+    "test": "truffle test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.4.1",
   "devDependencies": {
-    "@openzeppelin/contracts": "^5.2.0",
+    "@openzeppelin/contracts": "4.9.3",
     "truffle": "^5.11.5"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@apollo/protobufjs",
+      "bufferutil",
+      "es5-ext",
+      "keccak",
+      "leveldown",
+      "secp256k1",
+      "truffle",
+      "utf-8-validate",
+      "web3",
+      "web3-bzz",
+      "web3-shh"
+    ],
+    "onlyBuiltDependencies": [
+      "@apollo/protobufjs",
+      "bufferutil",
+      "es5-ext",
+      "keccak",
+      "leveldown",
+      "secp256k1",
+      "truffle",
+      "utf-8-validate",
+      "web3",
+      "web3-bzz",
+      "web3-shh"
+    ]
   }
 }

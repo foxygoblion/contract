@@ -60,8 +60,10 @@ module.exports = {
   networks: {
     development: {
       host: "127.0.0.1",
-      port: 8545,
-      network_id: "*"
+      port: 7545,  // 改回 Ganache UI 默认端口
+      network_id: "*",
+      gas: 6721975,  // 添加 gas 限制
+      gasPrice: 20000000000  // 添加 gas 价格 (20 Gwei)
     },
     //
     // An additional network, but with some advanced options…
@@ -100,7 +102,7 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      version: "0.8.20",    // Fetch exact version from solc-bin
+      version: "0.8.10",    // 降级到 0.8.10
       // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
       // settings: {          // See the solidity docs for advice about optimization and evmVersion
       //  optimizer: {
