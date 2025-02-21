@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract YDDCoin is ERC20 {
     //给我的代币起一个名字
-    string public constant NAME = "YidengERC20Token";
+    string public constant NAME = "YDengdengToken";
     //给代币一个缩写
     string public constant SYMBOL = "YDD";
     //初始发行量
