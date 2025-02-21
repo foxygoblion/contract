@@ -8404,12 +8404,12 @@
         }
       },
       "links": {},
-      "address": "0x7f70d75f9F24BA22817cD4c4181B426f7bc3C379",
-      "transactionHash": "0x5f457384a80fe867148921c93986df02be292f94cf31f2d7c9a27eedf6e486d8"
+      "address": "0x2c322D3AA4961F5eaF0113FBB4A87240Af0e0104",
+      "transactionHash": "0x32ae337f99942afa0d1d77827754cbafdb1017c10cac0f40257e00f163b41e82"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-02-21T01:12:14.793Z",
+  "updatedAt": "2025-02-21T01:26:55.824Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
